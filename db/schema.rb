@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_07_054839) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_10_062802) do
   create_table "registers", force: :cascade do |t|
     t.string "fullname"
     t.string "email"
-    t.string "number"
+    t.integer "number"
     t.string "date"
     t.string "region"
     t.string "availability"
